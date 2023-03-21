@@ -1,0 +1,283 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	margin: 0px;
+	padding: 0px;
+}
+
+.box{
+	margin: 0px;
+	padding: 0px;
+	width: 100vw;
+	height: 100vh;
+	background-color: #fff;
+}
+
+.div_menu_busca{
+	z-index: 1;
+	position: fixed;
+	background: #c3c3c3;
+	border-bottom: 2px solid red;
+	width: 59%;
+	height: 80px;
+	float: left;
+	text-align: center;
+}
+
+.bt_menu{
+	background: #fff;
+	width: 200px;
+	height: 40px;
+	border: 1px solid blue;
+	border-radius: 35px;
+	padding: 10px;
+	top: 1px;
+	margin-top: 10px;
+	margin-left: 25px;
+	float: left;
+	font-family: arial;
+	font-size: 20pt;
+	font-weight: bold;
+	text-decoration: none;
+	color: black;
+	text-transform: uppercase;
+}
+
+.bt_menu:hover{
+	background: #000;
+	color: white;
+	border: 3px solid white;
+}
+
+/* ______________________________________________________________________ inicio menu */
+
+	.container{
+									/* inicio div menu comandos*/
+		margin: 0PX;
+		padding: 0px;
+		width: 100%;
+		position: absolute;
+									/* fim div menu comandos*/
+
+	}
+
+	ul.menu{
+		list-style-type: none;
+		margin-top: 6px;
+	}
+
+	nav{
+										/*inicio nav menu comandos*/
+		margin: 0px;
+		padding: 0px;
+		width: 100vw;
+		height: 86px;
+		position: absolute;
+	   	position: fixed;
+	   	bottom: 44px;
+		background: #aaaaff;
+		float: left;
+		box-sizing: border-box;
+
+				
+
+										/*fim nav menu comandos*/
+	}
+
+	ul.menu li{
+		text-align: center;
+		width: 155px;
+		height: 70px;
+		line-height: 70px;
+		background-color: #00005f;
+		margin-top: px;
+		box-sizing: border-box;
+		float: left;
+		margin-left: 15px;
+		border-radius:50px;
+		color: #fff;
+
+	}
+
+/* ______________________________________________________________________ fim menu*/
+
+  
+section{
+}
+
+
+.divsection{
+	width: 59%;
+	height: 150%; 
+	float: left;
+	position: fixed;
+	top: 82px;
+	background-color: #ccc;
+}
+
+  article{
+	width: 100%;
+	box-sizing: border-box;
+	padding: 0px;
+	background-color: ;
+	float: right;
+	margin-bottom: 4px;
+	margin-left: 15px;
+}
+
+.divarticle{
+	width: 38%;
+	height: 80%;
+	box-sizing: border-box;
+	padding: 0px;
+	margin-left: 59%;
+	background-color: ;
+	position: ;
+	float: left;
+	background-color:;
+	font-family: arial;
+}
+
+
+/* inicio imprimir ________________________________________________________*/
+
+	@media print{
+		body{
+			visibility: hidden;
+		}
+
+		.box{
+			visibility: hidden;
+		}
+
+		.container{
+			visibility: hidden;
+		}
+
+		ul.menu{
+			visibility: hidden;
+		}
+
+		nav{
+			visibility: hidden;
+		}
+
+		ul.menu li{
+			visibility: hidden;
+		}
+
+		.divsection{
+			visibility: hidden;
+		}
+
+		section{
+			visibility: hidden;
+		}
+
+		.divarticle{
+			visibility: hidden;
+		}
+
+		article{
+			visibility: visible;
+			position: fixed;
+			left: 0;
+			top: 0;
+			text-transform: uppercase;
+		}
+
+	}
+
+/* fim imprimir ____________________________________________________________*/
+
+h1{
+	text-align: center;
+	font-size: 24pt;
+}
+
+h3{
+	text-align: center; font-size: 12pt;
+}
+
+.bti{
+	text-align: center;
+	width: 155px;
+	height: 70px;
+	position: fixed;
+	line-height: 70px;
+	background-color: #00005f;
+	margin-top: 200px;
+	margin-left: -180px;
+	box-sizing: border-box;
+	float: left;
+	border-radius:50px;
+	color: #fff;
+	font-weight: bold;
+	font-size: 18pt;
+	cursor: pointer;
+	border: none;
+	text-decoration: none;
+
+}
+
+.campo{
+	width: 60%;
+	height: ;
+	box-sizing: border-box;
+	font-size: 18pt;
+	margin-top: 1%;
+	background-color: #ddd;
+}
+
+.btp{
+	text-align: center;
+	width: 10%;
+	height: 2%;
+	line-height: 300%;
+	background-color: #00005f;
+	box-sizing: border-box;
+	float: right;
+	margin-right: 5%;
+	margin-top: 5px;
+	border-radius:50px;
+	color: #fff;
+	border: none;
+	cursor: pointer;
+
+}
+
+
+
+/*________________________________________________inicio rodape___________________________________________*/
+	img{
+	max-width: 9px;
+	}
+
+	img:hover{
+	max-width: 30px;
+
+	}
+	.rodape{
+	   	width: 100%;
+	   	position: fixed;
+	   	bottom: 0px;
+	   	background-color: #777;
+	   	text-align: center;
+	   	font-size: 9pt;
+	   	color: #fff;
+	   	font-family: arial;
+	   	left:;
+		    	
+		-webkit-touch-callout: none;
+  		-webkit-user-select: none;
+ 	 	-khtml-user-select: none;
+ 	  	-moz-user-select: none;
+  	 	-ms-user-select: none;
+  		user-select: none;
+	}
+/*________________________________________________fim rodape______________________________________________*/
+
+

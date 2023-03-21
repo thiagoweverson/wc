@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html>
+<head >
+	<meta charset="utf-8">
+	<title>WC TECNOLOGIA</title>
+
+	<link rel="stylesheet" href="css/estilo.css">
+	<link rel = "shortcut icon" type = "imagem/x-icon" href = "img/favicon.ico"/>
+	<script src="https://code.jquery.com/jquery-1.11.2.js"></script>
+		<script type="text/javascript">
+			jQuery(window).load(function($){
+				atualizaRelogio();
+			});
+		</script>
+
+</head>
+<body>
+<div class="div_box">
+	<div class="div_menu">
+		
+			
+		
+		
+			<output id="hora" style="position: fixed; margin-left: 50%; top: -2px; font-family: 'arial black', 'avant garde'; font-size: 64px; color: white;"></output>				
+		
+		<p style="margin-left: 50px; "></p>
+	</div>
+
+
+<!--________________________________________________________ inicio cadastro____________________________________><!-->
+
+	<div class="div_folha_cadastro">
+
+
+		<input type="radio" name="men" value="ven" id="umm">
+		<label style="position: fixed; margin-left: 152px;" for="umm" class="btnc">
+			<span class="txtnc"> Nota <br>
+			Cadastro </span>
+		</label>
+
+
+
+
+		<div class="folha_cadastro" style="position: absolute;">
+			<section class="folha_cadastro">
+
+				<p class="logo_cadastro">WC TECNOLOGIA</p>
+
+				<p class="p_cadastro">AV. Duque de Caxias. Bairro: Gabriel. N°: 808 | Telefone: (94) 99210-9353</p>
+				<hr><br>
+					
+
+				<form> <!--_________ xxxxxxxxxxxxxxxxxxx
+				 method="post" action="processa.php" class="form_cadastro"
+				 ____________________________________________________________><<!-->
+
+					<a href="processa.html">
+       					<input class="btn_cadastro" type="button" value="IMPRIMIR" onClick="window.print()" >
+    				</a>
+
+					
+
+					
+
+					Nome&nbsp;:
+					<input type="text" placeholder="Nome e sobrenome" name="nome" class="nome_cadastro" maxlength="40" required="autofocus"><br>
+
+					Serviço&nbsp;:
+					<input type="text" placeholder="serviço a ser feito"name="servico" class="serviço_cadastro" maxlength="80" required>
+									
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					Valor&nbsp;:
+					<input type="text" placeholder="valor "name="valor" class="valor_cadastro" maxlength="8" required><br>
+
+					N° telefone&nbsp;:
+					<input type="text" placeholder="telefone do cliente"name="telefone" class="telefone_cadastro" maxlength="15" required>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					Data&nbsp;:
+					<input type="date" placeholder="data"name="data" class="data_cadastro" maxlength="8" required>
+					<br>
+					<output id="hora" style="font-family: 'arial black', 'avant garde'; font-size: 14px;"></output>
+
+					<input type="checkbox" name="vehicle1"> capa &nbsp;&nbsp;&nbsp;
+					<input type="checkbox" name="vehicle2"> cartão&nbsp;&nbsp;&nbsp;
+					<input type="checkbox" name="vehicle3"> chip
+
+					<br>
+
+	    			observacoes
+	    			<textarea class="obs_cadastro" placeholder="observaçoes"name="observacoes"></textarea>
+	    			<br><br>
+
+	    			<hr class="hr_folha_cadastro">
+
+	    			<br>
+	    			
+	    		<!--
+	    			<P class="no_print">
+	    				Formulario sem Banco de Dados "nem uma nota sera salva"
+	    			</P>
+	    		><!-->
+
+				</form>
+
+
+			</section>
+		</div>
+
+	</div>
+<!--______________________________________________________________ fim cadastro_______________________________________><!-->
+
+
+<!--______________________________________________________________ inicio venda celular_______________________________><!-->
+		<input type="radio" name="men" value="notas" id="dois">
+		<label class="label2" for="dois">
+			Nota <br>
+			venda<br>
+			celular
+		</label style="position: absolute;">
+
+		<nav class="folha_venda" style="position: absolute;">
+			<section>
+
+
+
+				<form method="post" action="#" class="form_venda">
+
+					<input type="submit" value="IMPRIMIR" onClick="window.print()" class="bti_venda">
+
+					<p class="logo_venda">WC TECNOLOGIA</p>					
+						<p class="p_venda">
+						AV. Duque de Caxias. Bairro: Gabriel. N°: 808 | Telefone: (94) 99210-9353</p>
+						<hr>
+					
+
+					<p>Dados do Cliente</p class="dados_cliente_venda">
+
+					Nome&nbsp;:
+					<input type="text" placeholder="Nome e sobrenome" name="nome" class="cliente_venda" maxlength="400" required="autofocus"><br>
+
+					<hr>
+
+					<p>Dados Celular</p class="dados_celular_venda">
+
+					Marca&nbsp;:
+					<input type="text" placeholder="Marca do Aparelho"name="servico" class="marca_venda" maxlength="30" required>
+									
+					&nbsp;
+
+					Modelo&nbsp;:
+					<input type="text" placeholder="Modelo"name="valor" class="modelo_venda" maxlength="20" required>
+
+					&nbsp;
+
+					Cor&nbsp;:
+					<input type="text" placeholder="Cor "name="valor" class="cor_venda" maxlength="15" required>
+					&nbsp;&nbsp;&nbsp;&nbsp;
+					valor&nbsp;:
+					<input type="text" placeholder="Valor"name="valor" class="valor_venda" maxlength="8" required><br>
+
+					Imei I&nbsp;:&nbsp;
+					<input type="text" placeholder="Imei 1 "name="imei_1" class="imei_venda" maxlength="15" required>
+
+					<br>
+
+					Imei II&nbsp;: 
+					<input type="text" placeholder="Imei 2 "name="imei_2" class="imei_venda" maxlength="15" required>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					data&nbsp;:
+					<input type="date" placeholder="data"name="data" class="data_venda" maxlength="10" required><br>
+
+					<br>
+
+
+					<p class="nota_garantia">
+						NOTA DE GARANTIA!<br>
+						GARANTIA DE <input type="text" placeholder="N"name="garantia" class="garantia_venda" maxlength="2" required>MESES.<br>
+						<span style="font-size: 10pt;">
+							(NÃO COBRIMOS MAL USO, AGUA, QUEDA!)<br>
+						(Nota unica, não perca está nota ou perdera a garantia! )
+						</span>
+					</p>
+
+					<br>
+
+	    			observacoes
+	    			<textarea style="width: 97%; height: 60px;" placeholder="observaçoes"name="observacoes"></textarea>
+
+	    			<br><br>
+
+	    			<hr size="3" class="hr_venda">
+	    			
+				</form>
+			</section>
+		</nav>
+<!--______________________________________________________________ fim venda celular__________________________________><!-->
+
+<!--______________________________________________________________ inicio bnt home_______________________________><!-->	
+		<p>
+			<input class="bta" type="button" value="HOME" onClick="history.go(0)" id="dois">
+		</p>
+<!--______________________________________________________________ fim btn home__________________________________><<!-->
+
+<!--_________________________XXXXXXXXXXXXXX BOTAO BUSCA XXXXXXXXXXXXXXXXXXX_________________________
+	<p>
+		<a href="consulta.php"><button class="btb">BUSCAR</button></a>
+	</p>
+____________________________________________________________________________________________________><<!-->
+
+<!--______________________________________________________________ inicio rodape_______________________________><!-->
+			<form class="rodape">
+				<p>Desenvolvido por: Thiago Weverson<span style=" font-size: 9pt">©</span></p>
+<!--
+				<a style="left: 0px; position: fixed;" href="consulta.php" alt="WhatsApp" target="_blank">Notas anteriores</a> 
+!-->
+				<p>Contato: </p>
+				<p>Telefone: (94) 99160-9026 <a href="https://thiagoweverson.github.io/tw/tw/"><img src="img/we.png"></a> &nbsp; E-mail: thiagoweverson@gmail.com</p>
+				<p style="margin-right: -90%; color: #fff; margin-bottom: 3px;">(V: 3.11.10)</p>
+				<output id="data" style=" display: none; font-family: 'arial black', 'avant garde'; font-size: 24px;"></output>
+		
+		
+<!--______________________________________________________________ fim rodape__________________________________><!-->
+			
+</div>
+</body>
+
+	<script>
+		function atualizaRelogio(){ 
+			var momentoAtual = new Date();
+			
+			var vhora = momentoAtual.getHours();
+			var vminuto = momentoAtual.getMinutes();
+			var vsegundo = momentoAtual.getSeconds();
+			
+			var vdia = momentoAtual.getDate();
+			var vmes = momentoAtual.getMonth() + 1;
+			var vano = momentoAtual.getFullYear();
+			
+			if (vdia < 10){ vdia = "0" + vdia;}
+			if (vmes < 10){ vmes = "0" + vmes;}
+			if (vhora < 10){ vhora = "0" + vhora;}
+			if (vminuto < 10){ vminuto = "0" + vminuto;}
+			if (vsegundo < 10){ vsegundo = "0" + vsegundo;}
+
+			dataFormat = vdia + " / " + vmes + " / " + vano;
+			horaFormat = vhora + " : " + vminuto + " : " + vsegundo;
+
+			document.getElementById("data").innerHTML = dataFormat;
+			document.getElementById("hora").innerHTML = horaFormat;
+
+			setTimeout("atualizaRelogio()",1000);
+		}
+	</script>
+
+</html>

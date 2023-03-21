@@ -1,0 +1,135 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+body{
+	margin: 0px;
+	padding: 0px;
+}
+
+.div_box_processa {
+	text-align: center;
+}
+
+.div_conteudo_processa {
+	background: #c3c3c3;
+	width: 800px;
+	height: 501px;
+	margin: 50px auto;
+	border: 1px solid #000;
+	border-radius: 35px;
+	align-items: center;
+	object-position: center;
+	position: relative;
+}
+
+.div_conteudo_processa:hover{
+	background: #fff;
+}
+
+h1{
+	text-align: center;
+	font-size: 24pt;
+	text-decoration: underline;
+}
+
+{
+	text-decoration: underline;
+}
+
+.bin_processa{
+	height: 100px;
+	width: 400px;
+	border-radius: 20px;
+	border: 2px solid #000;
+	font-size: 24pt;
+	font-weight: bold;
+	top: 150px;
+	left: 200px;
+	position: absolute;
+}
+
+.bin_processa:hover {
+	background: #000;
+	height: 150px;
+	width: 450px;
+	color: #fff;
+	border: 2px solid #fff;
+	border-radius: 25px;
+	font-size: 28pt;
+	top: 125px;
+	left: 175px;
+	position: absolute;
+}
+
+.bnn_processa{
+	height: 100px; 
+	width: 400px;
+	border-radius: 24px;
+	border: 2px solid #000;
+	font-size: 24pt;
+	font-weight: bold;
+	top: 300px;
+	left: 200px;
+	position: absolute;
+	font-weight: bold;
+}
+
+.bnn_processa:hover{
+	background: #000;
+	height: 150px;
+	width: 450px;
+	color: #fff;
+	border: 2px solid #fff;
+	border-radius: 40px;
+	font-size: 40pt;
+	top: 275px;
+	left: 175px;
+	position: absolute;
+}
+
+section{
+	width: 800px;
+	height: 501px;
+	color: #fff;
+	text-align: center;
+	font-size: 18pt;
+	border-radius: 40px;
+}
+
+section:hover{
+	color: #000;
+}
+
+
+
+/*________________________________________________inicio rodape___________________________________________*/
+	img{
+	max-width: 9px;
+	}
+
+	img:hover{
+	max-width: 30px;
+
+	}
+	.rodape_processa{
+	   	width: 100%;
+	   	position: fixed;
+	   	bottom: 0px;
+	   	background-color: #777;
+	   	text-align: center;
+	   	font-size: 9pt;
+	   	color: #fff;
+	   	font-family: arial;
+	   	left:;
+		    	
+		-webkit-touch-callout: none;
+  		-webkit-user-select: none;
+ 	 	-khtml-user-select: none;
+ 	  	-moz-user-select: none;
+  	 	-ms-user-select: none;
+  		user-select: none;
+	}
+/*________________________________________________fim rodape______________________________________________*/
+

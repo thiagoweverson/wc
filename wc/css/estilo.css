@@ -1,0 +1,854 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+body{
+	background-image: url(../img/background.png);
+	margin: 0px;
+	padding: 0px;
+	font-family: arial;
+	background-size: 100%;
+	position: absolute;
+}
+
+.div_box{
+	width: 300px; 
+	height: 100px; 
+	left: 0px;   
+	position: absolute;
+}
+
+.div_menu{
+	background-image: url(../img/background.png);
+	background: #333;
+	position: fixed;
+	width: 100%;
+	height: 80px; 
+	left: 1px;
+}
+
+/*---------------INICIO--BOTOES--------------*/
+
+
+	/*------------INICIO--BT--HOME------------------*/
+		.bta:hover{
+			background-color: #fff;
+			color: #000;
+			cursor: pointer;
+
+		}
+
+
+		.bta{
+			background-color: #0000ff00;
+			position: fixed;
+			margin-left: 15px;
+			top: 7px;
+			color: white;
+			width: 100px;
+			height: 70px;
+			border-radius:35px;
+			border: 2px solid white;
+			font-size: 16pt;
+			font-weight: bolder;
+
+
+		}
+
+		.bta:hover{
+			background-color: #fff;
+			color: #000;
+			cursor: pointer;
+
+		}
+	/*------------FIM--BT--HOME---------------------*/
+
+	/*------------INICIO--BT--NOTA--CADASTRO--------*/
+		.btnc{				
+		background: #0000ff00;
+		width: 100px;
+		height: 66px;
+		position: absolute;
+		z-index: 1;
+		top: 7px;
+		left: -28px;
+		text-decoration: none;
+		text-transform: uppercase;
+		font-weight: bolder;
+		font-size: 10pt;
+		color: #fff;
+		border: 2px solid white;
+		border-radius: 35px;
+		text-align-last: center;
+
+
+		/*______________________________________________________________inicio_selecão_de_texto_________________________*/
+		    -webkit-touch-callout: none;  /* iPhone OS, Safari */
+		    -webkit-user-select: none;    /* Chrome, Safari 3 */
+		    -khtml-user-select: none;     /* Safari 2 */
+		    -moz-user-select: none;       /* Firefox */
+		    -ms-user-select: none;        /* IE10+ */
+		    user-select: none;            /* Possível implementação no futuro */
+		    /* cursor: default; */
+	    /*______________________________________________________________fim_selecão_de_texto____________________________*/
+		}
+
+	    .btnc:hover{
+	    	background: #fff;
+	    	color: #000;
+		cursor: pointer;
+	    }
+
+	    .txtnc{
+	    	position: fixed;
+	    	padding-top: 25px;
+	    	padding-left: 13px;
+	    }
+		
+	/*------------FIM--BT--NOTA--CADASTRO-----------*/
+
+	/*------------INICIO--BT--NOTA--VENDA-----------*/
+		.label2{
+		background-color: #0000ff00;
+		border-radius: 35px;
+		width: 90px;
+		height: 46px;
+		padding: 10px;
+		position: absolute;
+		z-index: 1;
+		top: 7px;
+		left: 235px;
+		text-decoration: none;
+		text-transform: uppercase;
+		font-weight: bolder;
+		color: white;
+		border: 2px solid white;
+		text-align: center;
+
+		/*______________________________________________________________inicio_selecão_de_texto_________________________*/
+		    -webkit-touch-callout: none;  /* iPhone OS, Safari */
+		    -webkit-user-select: none;    /* Chrome, Safari 3 */
+		    -khtml-user-select: none;     /* Safari 2 */
+		    -moz-user-select: none;       /* Firefox */
+		    -ms-user-select: none;        /* IE10+ */
+		    user-select: none;            /* Possível implementação no futuro */
+		    /* cursor: default; */
+	    /*______________________________________________________________fim_selecão_de_texto____________________________*/
+		}
+
+		.label2:hover{
+		background-color: #fff;
+		color: #000;
+		cursor: pointer;
+
+		}
+	/*------------FIM--BT--NOTA--VENDA-----------*/
+
+	/*------------INICIO--BT--BUSCAR----------------*/
+		.btb{
+		background-color: #0000ff00;
+		position: absolute;
+		top: 7px;
+		color: white;
+		left: 360px;
+		width: 100px;
+		height: 69px;
+		border-radius:35px;
+		border: 2px solid white;
+		font-size: 14pt;
+		font-weight: bolder;
+		opacity: 1;
+
+		}
+
+		.btb:hover{
+			background-color:#fff;
+			color: #000;
+			cursor: pointer;
+		}
+	/*------------FIM--BT--BUSCAR-------------------*/
+
+
+/*-----------------FIM--BOTOES--------------*/
+
+
+
+input[type="radio"]
+{
+	display: none;
+}
+
+div{
+	
+	width: 950px;
+	height: 600px;
+	left: -1750px;
+	position: absolute;
+}
+
+input[type="radio"]:checked ~ div
+{
+	transform: translateX(1750px);
+}
+
+
+
+
+
+
+
+
+/*________________________________________________inicio_id_#um___________________________________________*/
+	#um{
+		z-index: 1;
+		left: -300px;
+	}
+/*________________________________________________fim_id_#um______________________________________________*/
+
+/*________________________________________________inicio folha____________________________________________*/
+
+	.div_folha_cadastro{
+		align-items: center;
+		width: 600px; 
+		height: auto; 
+		left: 0px; 
+		left: 60px; 
+		top: 150px;
+		
+	}
+
+	.logo_cadastro{
+		top: ;
+		font-size: 24pt;
+		text-align: center;
+		font-weight: bold;
+		opacity: 0.6;
+
+		-webkit-touch-callout: none;
+  		-webkit-user-select: none;
+ 	 	-khtml-user-select: none;
+ 	  	-moz-user-select: none;
+  	 	-ms-user-select: none;
+  		user-select: none;
+	}
+
+	.p_cadastro{
+		text-align: center;
+
+		-webkit-touch-callout: none;
+  		-webkit-user-select: none;
+ 	 	-khtml-user-select: none;
+ 	  	-moz-user-select: none;
+  	 	-ms-user-select: none;
+  		user-select: none;
+	}
+
+	.nome_cadastro{
+		width: 634px;
+		text-transform: uppercase;
+
+		-webkit-touch-callout: none;
+  		-webkit-user-select: none;
+ 	 	-khtml-user-select: none;
+ 	  	-moz-user-select: none;
+  	 	-ms-user-select: none;
+  		user-select: none;
+	}
+
+	.serviço_cadastro{
+		width: 400px;
+		margin-top: 5px;
+		text-transform: uppercase;
+
+		-webkit-touch-callout: none;
+  		-webkit-user-select: none;
+ 	 	-khtml-user-select: none;
+ 	  	-moz-user-select: none;
+  	 	-ms-user-select: none;
+  		user-select: none;
+
+	}
+
+	.valor_cadastro{
+		width: 80px;
+		margin-top: 5px;
+		text-transform: uppercase;
+
+		-webkit-touch-callout: none;
+  		-webkit-user-select: none;
+ 	 	-khtml-user-select: none;
+ 	  	-moz-user-select: none;
+  	 	-ms-user-select: none;
+  		user-select: none;
+	}
+
+	.telefone_cadastro{
+		width: 155px;
+		margin-top: 5px;
+		text-transform: uppercase;
+
+		-webkit-touch-callout: none;
+  		-webkit-user-select: none;
+ 	 	-khtml-user-select: none;
+ 	  	-moz-user-select: none;
+  	 	-ms-user-select: none;
+  		user-select: none;
+	}
+
+	.data_cadastro{
+		margin-top: 5px;
+		width: 110px;
+		text-transform: uppercase;
+
+		-webkit-touch-callout: none;
+  		-webkit-user-select: none;
+ 	 	-khtml-user-select: none;
+ 	  	-moz-user-select: none;
+  	 	-ms-user-select: none;
+  		user-select: none;
+	}
+
+	.obs_cadastro{
+		width: 595px;
+		margin-top: 5px;
+		height: 60px;
+
+		-webkit-touch-callout: none;
+  		-webkit-user-select: none;
+ 	 	-khtml-user-select: none;
+ 	  	-moz-user-select: none;
+  	 	-ms-user-select: none;
+  		user-select: none;
+	}
+
+	.btn_cadastro{
+		background-color: #000;
+		position: absolute;
+		top: 467px;
+		color: #fff;
+		left: 42%;
+		width: 85px;
+		height: 85px;
+		border-radius: 100px;
+		border: 2px solid #fff;
+		font-size: 12pt;
+		font-weight: bolder;
+	}
+
+	.btn_cadastro:hover{
+		background-color: #fff;
+		color: #000;
+		border: 4px solid #ccc;
+		top: 448px;
+		left: 39%;
+		height: 125px;
+		width: 125px;
+		cursor: pointer;
+		font-size: 20pt;
+	}
+
+	.folha_cadastro{
+		border: 1px solid blue;
+		height: 420px;
+		width:715px;
+		border-radius: 35px;
+		background-color: rgb(365, 365, 365, 0.4);
+		
+
+		
+	}
+
+
+	.folha_cadastro{
+		z-index: 1;
+	}
+
+
+	.hr_folha_cadastro{
+		border: 0.5px dashed black; 
+		opacity: 0.6
+	}
+/*________________________________________________fim folha_______________________________________________*/
+
+
+/*________________________________________________inicio print____________________________________________*/
+	@media print{
+	@page{size: auto;}
+	* {
+        background:transparent !important;
+        color:#000 !important;
+        text-shadow:none !important;
+        filter:none !important;
+        -ms-filter:none !important;
+    }
+
+    header {
+        display: none;
+    } 
+
+    footer {
+        display: none;
+    }
+
+	body{
+		visibility: hidden;
+	}
+
+	label{
+		visibility: hidden;
+	}
+
+	.div_menu{
+		display: none;
+		visibility: hidden;
+	}
+
+	.div_folha_cadastro{
+		visibility: visible;
+	}
+
+	.div_box{
+		visibility: hidden;
+	}
+
+	#um{
+		visibility: hidden;
+	}
+
+	.btn_cadastro{
+		visibility: hidden;
+	}
+
+	.no_print{
+		visibility: none;
+		display: none;
+	}
+
+
+
+	header { display: none !important; } 
+	footer { display: none !important; } 
+
+	section{
+		visibility: visible;
+		margin: 0px;
+		padding: 0px;
+		left: -153px;
+		width: 100px;
+		height: 100px;
+		opacity: 0.7;
+
+	}
+
+	.folha_cadastro{
+		visibility: visible;
+		margin: 0px;
+		padding: 0px;
+		left: -1801px;
+		top: -150px;
+		border: none;
+		height: 500px;
+		width: 745px;
+		
+
+		
+	}
+	.nome_cadastro{
+		visibility: visible;
+		width: 450px;
+		border: none;
+	}
+
+	.serviço_cadastro{
+		visibility: visible;
+		border: none;
+	}
+
+	.valor_cadastro{
+		visibility: visible;
+		border: none;
+		right: 5px;
+	}
+
+	.telefone_cadastro{
+		visibility: visible;
+		border: none;
+	}
+
+	.data_cadastro{
+		visibility: visible;
+		border: none;
+	}
+	}
+/*________________________________________________fim print_______________________________________________*/
+
+
+/*________________________________________________inicio rodape___________________________________________*/
+
+	img{
+	max-width: 9px;
+	}
+
+	img:hover{
+	max-width: 30px;
+	}
+
+	.rodape{
+	   	width: 100%;
+	   	position: fixed;
+	   	bottom: 0px;
+	   	background-color: #777;
+	   	text-align: center;
+	   	font-size: 9pt;
+	   	color: #fff;
+	   	font-family: arial;
+	   	left:;
+		    	
+		-webkit-touch-callout: none;
+  		-webkit-user-select: none;
+ 	 	-khtml-user-select: none;
+ 	  	-moz-user-select: none;
+  	 	-ms-user-select: none;
+  		user-select: none;
+	}
+/*________________________________________________fim rodape______________________________________________*/
+
+
+
+
+/*
+###############################################################################################################################
+###############################################################################################################################
+######                                    ##         ##############################################         #######################
+#####                                    ####         ############################################         ########################
+####                                    ######         ################          ################         #########################
+###                                    ########         ##############            ##############         ##########################
+###############          #######################         ############              ############         ###########################
+##############          #########################         ##########       ##       ##########         ############################
+#############          ###########################         ########       ####       ########         #############################
+############          #############################         ######       ######       ######         ##############################
+###########          ###############################         ####       ########       ####         ###############################
+##########          #################################         ##       ##########       ##         ################################
+#########          ###################################                ############                #################################
+########          #####################################              ##############              ##################################
+#######          ##############################################################################################################
+######          ###############################################################################################################
+#####          ################################################################################################################
+####          #################################################################################################################
+###############################################################################################################################
+###############################################################################################################################
+###############################################################################################################################
+###############################################################################################################################
+###############################################################################################################################
+###############################################################################################################################
+###############################################################################################################################
+###############################################################################################################################
+###############################################################################################################################
+###############################################################################################################################
+###############################################################################################################################
+###############################################################################################################################
+###############################################################################################################################
+###############################################################################################################################
+*/
+
+
+
+
+
+input[type="radio"]
+{
+	display: none;
+}
+
+nav{
+	
+	height: 420px;
+	width:715px;
+	left: -1750px;
+	position: absolute;
+}
+input[type="radio"]:checked ~ nav
+{
+	transform: translateX(1900px);
+}
+
+
+
+
+
+/*________________________________________________inicio_id_#um___________________________________________*/
+	#dois{
+		z-index: 1;
+		left: 0px;
+	}
+/*________________________________________________fim_id_#um______________________________________________*/
+
+/*---------------------------------------------INICIO--FOLHA--VENDA------------------*/
+	.logo_venda{
+		top: ;
+			font-size: 24pt;
+			text-align: center;
+			font-weight: bold;
+			opacity: 0.6;
+
+			-webkit-touch-callout: none;
+	  		-webkit-user-select: none;
+	 	 	-khtml-user-select: none;
+	 	  	-moz-user-select: none;
+	  	 	-ms-user-select: none;
+	  		user-select: none;
+	}
+
+	.p_venda{
+			text-align: center;
+
+			-webkit-touch-callout: none;
+	  		-webkit-user-select: none;
+	 	 	-khtml-user-select: none;
+	 	  	-moz-user-select: none;
+	  	 	-ms-user-select: none;
+	  		user-select: none;
+	}
+
+
+	.folha_venda {
+		border: 2px solid blue;
+		border-radius: 35px;
+		background-color: rgba(365, 365, 365, 0.6);
+		top: 150px;
+		left: -1840px;
+			
+	}
+
+	.cliente_venda{
+		width: 640px;
+		font-size: 11pt;
+		text-transform: uppercase;
+	}
+
+	.marca_venda{
+		width: 100px;
+		text-transform: uppercase;
+		font-size: 11pt;
+	}
+
+	.modelo_venda{
+		width: 150px;
+		text-transform: uppercase;
+		font-size: 10pt;
+	}
+
+	.cor_venda{
+		width: 100px;
+		text-transform: uppercase;
+		font-size: 11pt;
+	}
+
+	.valor_venda{
+		width: 70px;
+		text-transform: uppercase;
+		font-size: 11pt;
+	}
+
+	.imei_venda{
+		width: 150px;
+		text-transform: uppercase;
+		font-size: 11pt;
+		margin-top: 5px;
+	}
+
+	.data_venda{
+		width: 110px;
+		text-transform: uppercase;
+		font-size: 11pt;
+	}
+
+	.garantia_venda{
+		width: 19px;
+		text-transform: uppercase;
+		font-size: 11pt;
+	}
+
+		.bti_venda{
+			background-color: #000;
+			position: absolute;
+			top: 467px;
+			color: #fff;
+			left: 42%;
+			width: 85px;
+			height: 85px;
+			border-radius:100px;
+			border: 2px solid white;
+			font-size: 12pt;
+			font-weight: bolder;
+			text-decoration: none;
+			
+		}
+
+		.bti_venda:hover{
+			background-color: #fff;
+			color: white;
+			top: 450px;
+			color: black;
+			left: 39.5%;
+			width: 120px;
+			height: 120px;
+			border: 4px solid #ccc;
+			border-radius:100px;
+			font-size: 20pt;
+			font-weight: bolder;
+			text-decoration: none;
+			cursor: pointer;
+		}
+
+		.nota_garantia{
+			font-size: 11pt;
+		}
+/*---------------------------------------------FIM--FOLHA--VENDA---------------------*/
+
+/*---------------------------------------------INICIO--PRINT-------------------------*/
+		@media print{
+		@page{size: auto;}
+
+			* {
+	        background:transparent !important;
+	        color:#000 !important;
+	        text-shadow:none !important;
+	        filter:none !important;
+	        -ms-filter:none !important;
+	    }
+
+	    header {
+	        display: none;
+	    } 
+
+	    footer {
+	        display: none;
+	    }
+
+		body{
+			visibility: hidden;
+		}
+
+		label{
+			visibility: hidden;
+		}
+
+		nav{
+			visibility: hidden;
+		}
+
+		#dois{
+			visibility: hidden;
+		}
+
+		.folha_venda{
+			visibility: hidden;
+		}
+
+		.div_box{
+			visibility: hidden;
+		}
+
+		#um{
+			visibility: hidden;
+		}
+
+		.bti_venda{
+			visibility: hidden;
+		}
+
+		.bta{
+			visibility: hidden;
+		}
+
+		.rodape{
+			visibility: hidden;
+		}
+		section{
+			visibility: hidden;
+		}
+
+		.form_venda{
+			visibility: visible;
+			width: 1050px;
+			margin-left: -40px;
+			margin-top: -150px;
+			
+
+		}
+
+		.cliente_venda{
+		visibility: visible;
+		width: 700px;
+		font-size: 14pt;
+		text-transform: uppercase;
+		border: none;
+		}
+
+		.marca_venda{
+			visibility: visible;
+			width: 150px;
+			text-transform: uppercase;
+			font-size: 12pt;
+			border: none;
+		}
+
+		.modelo_venda{
+			visibility: visible;
+			width: 150px;
+			text-transform: uppercase;
+			font-size: 12pt;
+			border: none;
+		}
+
+		.cor_venda{
+			visibility: visible;
+			width: 100px;
+			text-transform: uppercase;
+			font-size: 12pt;
+			border: none;
+		}
+
+		.valor_venda{
+			visibility: visible;
+			width: 80px;
+			text-transform: uppercase;
+			font-size: 12pt;
+			border: none;
+		}
+
+		.imei_venda{
+			visibility: visible;
+			width: 150px;
+			text-transform: uppercase;
+			font-size: 12pt;
+			margin-top: 5px;
+			border: none;
+		}
+
+		.data_venda{
+			visibility: visible;
+			width: 110px;
+			text-transform: uppercase;
+			font-size: 12pt;
+			border: none;
+		}
+
+		.garantia_venda{
+			visibility: visible;
+			width: 19px;
+			text-transform: uppercase;
+			font-size: 12pt;
+			border: none;
+		}
+
+		.hr_venda{
+				border: 0.5px dashed black; 
+				opacity: 0.6
+			}
+
+		}
+/*---------------------------------------------FIM--PRINT----------------------------*/
+
